@@ -15,7 +15,7 @@ namespace EmailSubsystem
 
         static async Task Execute()
         {
-            var apiKey = "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";
+            //var apiKey = "Wow, SendGrid is really proffesional, while developing, keep these details off of GitHub!";
                 //System.Environment.GetEnvironmentVariable("SENDGRID_APIKEY"); Better code.
             var client = new SendGridClient(apiKey);
 
