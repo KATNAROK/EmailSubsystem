@@ -12,7 +12,7 @@ namespace EmailSubsystem_SendGrid_WebApp_.Models.HelperClasses
     public class EmailManager
     {
         private readonly SendGridClient _client;
-        private string apiKey = "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";
+        //private string apiKey = "Apologies, this needs to be kept private!";
             //Environment.GetEnvironmentVariable("SENDGRID_API_KEY"); Better code.
         private static readonly string MessageId = "X-Message-Id";
 
